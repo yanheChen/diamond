@@ -2,7 +2,14 @@
 
 This branch contains the code to play (and train) our world model of *Counter-Strike: Global Offensive* (CS:GO).
 
-[[Project Page]](https://diamond-wm.github.io) &nbsp; [[Paper]](https://arxiv.org/abs/2405.12399)
+🌍 [Project Page](https://diamond-wm.github.io) • 🤓 [Paper](https://arxiv.org/pdf/2405.12399) • 𝕏 [Atari thread](https://x.com/EloiAlonso1/status/1793916382779982120) • 𝕏 [CSGO thread](https://x.com/EloiAlonso1/status/1844803606064611771)
+
+<div align='center'>
+  Human player in CSGO world model (full quality video <a href="https://diamond-wm.github.io/static/videos/grid.mp4">here</a>)
+  <br>
+  <img alt="DIAMOND agent in WM" src="https://github.com/user-attachments/assets/dcbdd523-ca22-46a9-bb7d-bcc52080fe00">
+</div>
+
 
 ## Installation
 ```bash
