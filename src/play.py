@@ -52,6 +52,12 @@ def prepare_play_mode(cfg: DictConfig, args: argparse.Namespace) -> PlayEnv:
     else:
         device = torch.device("cpu")
 
+    print("----------------------------------------------------------------------")
+    print(f"Using {device} for rendering.")
+    if not torch.cuda.is_available():
+        print("If you have a CUDA GPU available and it is not being used, please follow the instructions at https://pytorch.org/get-started/locally/ to reinstall torch with CUDA support and try again.")
+    print("----------------------------------------------------------------------")
+
     assert cfg.env.train.id == "csgo"
     num_actions = cfg.env.num_actions
 
